@@ -82,12 +82,48 @@ namespace myNetApp
             Console.WriteLine($"rounding with decimals: {s / t}");   
         }
 
+        static void IfElseBranches() 
+        {
+            int a = 5;
+            int b = 3;
+            if (a + b > 10)
+                {
+                    Console.WriteLine("The answer is greater than 10");
+                }
+            else
+                {
+                    Console.WriteLine("The answer is not greater than 10");
+                }  
+        }
+
+        static void ForLoops() 
+        {
+          for (int index = 0; index < 10; index++)
+            {
+                Console.WriteLine($"Hello World! The index is {index}");
+            }
+        }
+
+        static void NestedLoops()
+        {
+          for (int row = 1; row < 5; row++)
+          {
+              for (char column = 'a'; column < 'e'; column++)
+              {
+                  Console.WriteLine($"The cell is ({row}, {column})");
+              }
+          }
+        }
+
          static void Main(string[] args)
         {
             // Console.WriteLine("Hello World!");
             // Console.WriteLine("The current time is " + DateTime.Now); 
-            WorkingWithIntegers();
-            OrderPrecedence();
+            // WorkingWithIntegers();
+            // OrderPrecedence();
+            // IfElseBranches();
+            // ForLoops();
+            NestedLoops();
         }
     }
 }
