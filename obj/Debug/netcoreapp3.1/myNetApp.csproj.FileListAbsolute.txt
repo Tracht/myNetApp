@@ -1,0 +1,12 @@
+/Users/marijatrachtenberg/Desktop/myNetApp/bin/Debug/netcoreapp3.1/myNetApp.deps.json
+/Users/marijatrachtenberg/Desktop/myNetApp/bin/Debug/netcoreapp3.1/myNetApp.runtimeconfig.json
+/Users/marijatrachtenberg/Desktop/myNetApp/bin/Debug/netcoreapp3.1/myNetApp.runtimeconfig.dev.json
+/Users/marijatrachtenberg/Desktop/myNetApp/bin/Debug/netcoreapp3.1/myNetApp.dll
+/Users/marijatrachtenberg/Desktop/myNetApp/bin/Debug/netcoreapp3.1/myNetApp.pdb
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.csprojAssemblyReference.cache
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.AssemblyInfoInputs.cache
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.AssemblyInfo.cs
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.csproj.CoreCompileInputs.cache
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.dll
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.pdb
+/Users/marijatrachtenberg/Desktop/myNetApp/obj/Debug/netcoreapp3.1/myNetApp.genruntimeconfig.cache
