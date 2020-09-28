@@ -42,6 +42,16 @@ namespace myNetApp
             int g = 3;
             int h = (e  + f) / g;
             Console.WriteLine(h);
+
+            // quotient
+            int j = (a + b) / c;
+            // remainder
+            int k = (a + b) % c;
+
+            Console.WriteLine($"The quotient of (5 + 4) / 2 is ....");
+            Console.WriteLine($"quotient: {j}");
+            Console.WriteLine($"The remainder of (5 + 4) / 2 = is ...");
+            Console.WriteLine($"remainder: {k}");
         }
 
 
