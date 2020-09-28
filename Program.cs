@@ -52,8 +52,35 @@ namespace myNetApp
             Console.WriteLine($"quotient: {j}");
             Console.WriteLine($"The remainder of (5 + 4) / 2 = is ...");
             Console.WriteLine($"remainder: {k}");
-        }
 
+            // working with doubles
+            double m = 19;
+            double n = 23;
+            double p = 8;
+            double r = (m + n) / p;
+            Console.WriteLine($"Doubles addition and divison: {r}");
+
+            // doubles and MIN and MAX
+            double max = double.MaxValue;
+            double min = double.MinValue;
+            Console.WriteLine($"The range of double is {min} to {max}");
+
+            // rounding
+            double third = 1.0 / 3.0;
+            Console.WriteLine(third);
+
+            // DECIMAL type is more precise than a double type but has a smaller range
+            decimal minDecimal = decimal.MinValue;
+            decimal maxDecimal = decimal.MaxValue;
+            Console.WriteLine($"The range of the decimal type is {minDecimal} to {maxDecimal}");
+
+            // more accurate rounding
+            // The M suffix is how you indicate that a constant should use the decimal type. 
+            // Otherwise, the compiler assumes the double type.
+            decimal s = 1.0M;
+            decimal t = 3.0M;
+            Console.WriteLine($"rounding with decimals: {s / t}");   
+        }
 
          static void Main(string[] args)
         {
